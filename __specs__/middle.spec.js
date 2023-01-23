@@ -3,7 +3,7 @@ const path = require('path')
 
 describe('Middle specs', () => {
   it('spec 1 sum: any count of arguments', () => {
-    function getArgumentsSumm(...args) {
+    function getArgumentsSumm() {
       // implementation
     }
 
