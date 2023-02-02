@@ -1,6 +1,6 @@
 const {expect} = require('chai')
 
-describe('Senior specs', () => {
+describe('deep specs', () => {
   it('spec 1 object properties', () => {
     const a = {}
 

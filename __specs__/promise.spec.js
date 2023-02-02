@@ -1,7 +1,7 @@
 const {expect} = require('chai')
 const path = require('path')
 
-describe('Middle specs', () => {
+describe('promise specs', () => {
   it('spec 1 sum: any count of arguments', () => {
     function getArgumentsSumm() {
       // implementation

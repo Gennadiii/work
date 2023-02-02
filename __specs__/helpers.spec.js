@@ -1,6 +1,6 @@
 const {expect} = require('chai')
 
-describe('Junior specs', () => {
+describe('helpers specs', () => {
   it('spec 1 every item plus 1', () => {
     const arr = [1, 2, 3, 4, 5]
 
