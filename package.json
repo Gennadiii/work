@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:junior": "mocha \"__specs__/junior.spec.js\" --timeout 10000",
-    "test:middle": "mocha \"__specs__/middle.spec.js\" --timeout 10000",
-    "test:senior": "mocha \"__specs__/senior.spec.js\" --timeout 10000"
+    "test:1": "mocha \"__specs__/helpers.spec\" --timeout 10000",
+    "test:2": "mocha \"__specs__/promise.spec\" --timeout 10000",
+    "test:3": "mocha \"__specs__/file.spec\" --timeout 10000",
+    "test:4": "mocha \"__specs__/deep.spec\" --timeout 10000"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "chai": "4.2.0",
+    "mocha": "6.1.4"
   }
 }
